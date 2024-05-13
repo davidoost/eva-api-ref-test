@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Add your fonts there */
+  @font-face {
+    font-family: "Inter";
+    src: url("/fonts/inter-regular.ttf") format("truetype");
+    font-weight: 400;
+  }
+
+  /* set global styling */
+  * {
+    -webkit-font-smoothing: antialiased;
+  }
+}
